@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width:600px) and (min-width:300px) {
+    #paragrafo,#convide,strong{
+        font-size: 0.7rem !important;
+    }
+    
+    section{
+        padding-right: 10rem !important;
+        padding-left: 10rem !important;
+    }
+    main *{
+        font-size: small !important;
+        
+    }
+    label{
+        font-size: small !important;
+    }
+}
+
+img{
+    width: 40px;
+    position: relative;
+}
+button{
+    cursor: pointer;
+}
+header a{
+    text-decoration: none;
+    color: white; color: rgba(104, 125, 219, 0.658);
+    cursor: pointer;
+}
+header{
+    background-color: rgb(2, 68, 122);
+    padding: 10px;
+    color: rgba(104, 125, 219, 0.658);
+    font-size: smaller !important;
+    display: flex;
+    justify-content:space-around;
+}
+a{
+    color: rgba(104, 125, 219, 0.658);
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+}
+main{
+    padding: 30px;
+    border: solid rgba(48, 107, 173, 0.747);
+    text-align: center;   
+    box-shadow: #8d8e8fc4 1px 1px 43px;
+    border-radius: 3px;
+    
+
+}
+main h1,label,#convide{
+    background: radial-gradient(67.29% 1195.55% at 5.99% 49.53%, #0B2872 0%, #4F66A3 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+main div{
+    padding: 12px;
+}
+.projeto h2, #desenvolvimento{
+    background-color: rgb(224, 92, 44);
+    border-radius: 4px;
+    color: white;
+    padding: 7px;
+}
+
+b{
+    border-bottom:solid 2px rgb(14, 42, 167);
+}
+label{
+   font-size: x-large !important;
+   padding: 10px;
+   margin-top: 10px !important;
+}
+button{
+    background-color: #0B2872;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    width: 40%;
+    border-radius: 4px;
+}
+#main2{
+   
+    background-color: rgba(255, 255, 255, 0.884);
+    border: none;
+}
+#paragrafo{
+    padding-bottom: 30px;
+    text-align: center;
+}
+#main2 strong{
+   color: #0B2872;
+}
